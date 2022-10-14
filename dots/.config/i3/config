@@ -236,5 +236,5 @@ bar {
 
 # exec_always --no-startup-id xrandr --output Virtual1 --primary --mode 1600x1200 --pos 0x0 --rotate normal
 exec_always --no-startup-id xrandr --output Virtual1 --primary --mode 2560x1440 --pos 0x0 --rotate normal
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/3.png
+exec_always --no-startup-id feh --bg-scale ~/.wallpaper.png
 exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
