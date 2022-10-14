@@ -1,16 +1,12 @@
 #!/usr/bin/bash
 
-# check internet connection or connect wireless
-
-# install i3-gaps thru archinstall
-
 # update sys
 yay --noconfirm --answerdiff None --answerclean None --removemake -Syy
 yay --noconfirm --answerdiff None --answerclean None --removemake -Syu
 
 # prereq
 sudo pacman --noconfirm -S --needed base-devel
-sudo pacman --noconfirm -S git wget sudo nano neovim ranger python python-pip
+sudo pacman --noconfirm -S git wget sudo nano neovim ranger python python-pip perl
 
 # installing yay
 sudo git clone https://aur.archlinux.org/yay.git
@@ -21,6 +17,7 @@ cd ..
 sudo rm -rf yay
 
 # install dependencies
+# spotify cuz i3blocks script require a spotify install 
 yay --noconfirm --answerdiff None --answerclean None --removemake -Sy i3exit ttf-yosemite-san-francisco-font-git ttf-fira-code ttf-font-awesome ttf-inconsolata lxappearance moka-icon-theme-git arc-gtk-theme-git capitaine-cursors picom spotify
 # neovide??
 pip install dbus-python

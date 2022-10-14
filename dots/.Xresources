@@ -1,11 +1,3 @@
-*.background:                      #222D31
-*.foreground:                      #d8d8d8
-*fading:                          8
-*fadeColor:                       black
-*cursorColor:                     #d8d8d8
-*pointerColorBackground:          #2B2C2B
-*pointerColorForeground:          #16A085
-
 !black
 *color0: #383c4a
 *color8: #404552
@@ -26,13 +18,19 @@
 *color4: #5294e2
 *color12: #579CEF
 
+! *color4: #6BE5E7
+! *color12: #90FDFF
+
 !magenta
 *color5: #CE50DD
 *color13: #E7766B
 
 !cyan
-*color6: #6BE5E7
-*color14: #90FDFF
+! *color6: #6BE5E7
+! *color14: #90FDFF
+
+*color6: #5294e2
+*color14: #579CEF
 
 !white
 *color7: #CCCCCC
@@ -40,24 +38,14 @@
 
 URxvt.font:                       xft:Inconsolata Bold:family=mono:size=22:antialias=true
 
-! alternative font settings with 'terminus':
-! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
-! URxvt.bold.font: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
-!! terminus names see end of file!
-
 URxvt.depth:                      32
 URxvt.background:                 [85]#2f343f
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
-URxvt*cursorBlink:                true
+URxvt*cursorBlink:                false
 URxvt*background:                 black
-URxvt*foreground:                 #f3f4f5
+URxvt*foreground:                 #d8d8d8
 URxvt*saveLines:                  5000
-
-! for 'fake' transparency (without Compton) uncomment the following three lines
-! URxvt*inheritPixmap:            true
-! URxvt*transparent:              true
-! URxvt*shading:                  138
 
 ! Normal copy-paste keybindings without perls
 URxvt.iso14755:                   false
@@ -93,8 +81,8 @@ URxvt.keysym.Shift-Control-Down:  \033[1;6B
 ! URxvt*scrollWithBuffer:           boolean
 ! URxvt*tintColor:                  !7DA55
 ! URxvt*blurRadius:                 HxV
-! URxvt*fading:                     number
-! URxvt*fadeColor:                  color
+URxvt*fading:                       8
+URxvt*fadeColor:                    black
 ! URxvt*utmpInhibit:                boolean
 ! URxvt*urgentOnBell:               boolean
 ! URxvt*visualBell:                 boolean
