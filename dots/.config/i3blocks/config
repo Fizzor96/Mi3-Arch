@@ -1,0 +1,29 @@
+command=$SCRIPT_DIR/$BLOCK_NAME
+color=#E0E0E0
+
+# Spotify icon \uF1BC
+[spotify]
+label= 
+command=python ~/.config/i3blocks/scripts/spotify/spotify.py
+color=#2ebd59
+interval=5
+
+[load]
+command=~/.config/i3blocks/scripts/load
+interval=1
+label= 
+
+[disk]
+command=~/.config/i3blocks/scripts/disk
+interval=1
+label= 
+
+[volume]
+command=~/.config/i3blocks/scripts/volume
+label= 
+interval=1
+
+[date]
+command=date '+%b %d %H:%M'
+interval=1
+label= 
