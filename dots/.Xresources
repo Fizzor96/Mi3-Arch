@@ -1,3 +1,6 @@
+Xcursor.theme: capitaine-cursors
+Xcursor.size: 32
+
 !black
 *color0: #383c4a
 *color8: #404552

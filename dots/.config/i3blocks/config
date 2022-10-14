@@ -1,12 +1,41 @@
 command=$SCRIPT_DIR/$BLOCK_NAME
 color=#E0E0E0
 
-# Spotify icon \uF1BC
 [spotify]
 label= 
-command=python ~/.config/i3blocks/scripts/spotify/spotify.py
+command=python ~/.config/i3blocks/scripts/spotify.py
 color=#2ebd59
 interval=5
+
+[volume]
+command=~/.config/i3blocks/scripts/volume
+#LABEL=♪ 
+LABEL=VOL 
+interval=once
+signal=10
+#STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+#NATURAL_MAPPING=0
+
+[battery2]
+command=/battery2
+markup=pango
+interval=30
+
+[backlight]
+command=~/.config/i3blocks/scripts/backlight
+label=☀
+interval=20
+STEP_SIZE=5
+#USE_SUDO=0
+
+[miccontrol]
+command=~/.config/i3blocks/scripts/miccontrol
+label=MIC
+SOURCE=alsa_input.pci-0000_00_1f.3.analog-stereo
+interval=10
+signal=10
 
 [load]
 command=~/.config/i3blocks/scripts/load
@@ -17,11 +46,6 @@ label=
 command=~/.config/i3blocks/scripts/disk
 interval=1
 label= 
-
-[volume]
-command=~/.config/i3blocks/scripts/volume
-label= 
-interval=1
 
 [date]
 command=date '+%b %d %H:%M'
