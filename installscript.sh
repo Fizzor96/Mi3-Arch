@@ -40,6 +40,14 @@ picom --config ~/.config/picom/picom.conf
 # pacman config file location: /etc/pacman.conf
 sed -i 's/#IgnorePkg   =/IgnorePkg   = linux/g' /etc/pacman.conf
 
+# set cursor in greeter (lightdm)
+# sed -i 's/Inherits=Adwaita/Inherits=capitaine-cursors/g' /usr/share/icons/default/index.theme
+
+# lightdm resolution
+sudo cp lightdmxrandr.sh -t /etc/lightdm/
+chmod a+xr /etc/lightdm/lightdmxrandr.sh
+sudo sed -i 's/# display-setup-script = Script to run when starting a greeter session (runs as root)/display-setup-script = /etc/lightdm/lightdmxrandr.sh/g' /etc/lightdm/lightdm.conf
+
 # Cleanup
 yay -Yc --noconfirm
 

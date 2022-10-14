@@ -65,6 +65,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run -fn 'Inconsolata 13'
 
 bindsym $mod+F2 exec chromium
 bindsym $mod+F3 exec code
+bindsym $mod+F4 exec spotify
 
 # change focus
 bindsym $mod+j focus left
@@ -127,7 +128,11 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 
-# assign [class"urxvt"] = $ws1
+
+assign [class="URxvt"] $ws1
+assign [class="Chromium"] $ws2
+assign [class="Code"] $ws3
+assign [class="Spotify"] $ws4
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
