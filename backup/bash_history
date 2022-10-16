@@ -1,0 +1,500 @@
+ls
+nano installscript.sh 
+ls
+ls -la
+git clone https://github.com/Fizzor96/Mi3-Arch.git
+ls
+cd Mi3-Arch/
+ls
+./installscript.sh 
+./installscript.sh 
+ls
+cd Mi3-Arch/
+ls
+nano installscript.sh 
+lss
+ls
+./installscript.sh 
+reboot
+ls
+cd Mi3-Arch/
+ls
+cd dots/
+ls
+ls -la
+cp .wallpaper.png -t ~/
+ls
+ls -la
+feh --version
+yay -S feh
+neofetch 
+df -h
+ls -la
+shutdown now
+yay -Syu
+yay -Syyu
+uname -al
+man uname
+uname -a
+uname --help
+uname -s
+uname -v
+uname -r
+uname -sr
+df -h
+yay -S visual-studio-code-bin
+ls
+code .config/i3/config 
+neofetch 
+neofetch 
+clear
+reboot now
+sudo reboot now
+gcc --version
+g++ --version
+ls
+ls
+mkdir Documents
+ls
+code Documents .
+ls
+cd Documents/
+code .
+df -h
+neofetch 
+neofetch 
+reboot
+neofetch 
+neofetch 
+shutdown now
+neofetch 
+shutdown now
+lspci
+df -h
+neofetch 
+ls
+cd .config/
+ls
+cd i3
+ls
+code config 
+ls
+cd ..
+ls
+cd gtk-2.0/
+ls
+code gtkfilechooser.ini 
+cd ..
+ls
+cd gtk-3.0/
+ls
+code settings.ini 
+cd ~
+ls
+ls -la
+code .gtkrc-2.0 
+yay -Ss captaine cursors
+yay -Ss captaine
+yay -Ss office
+yay -Ss capitaine-cursors
+yay -S capitaine-cursors
+reboot
+ls
+cd Mi3-Arch/
+ls
+cd dots/
+ls
+ls -la
+cat .gtkrc-2.0 
+yay -Syyu
+libwacom-list-devices 
+htop
+ls
+ls
+pwd
+cd ~
+ls
+cd .config/i3
+ls
+code config 
+shutdown now
+lspci
+shutdown now
+ls
+mv Mi3-Arch/ Mi3-Arch-old/
+ls
+git clone https://github.com/Fizzor96/Mi3-Arch.git
+ls
+cd Mi3-Arch
+ls
+cd ..
+ls
+cd Mi3-Arch-old/
+ls
+git status
+git log
+ls
+cd ..
+ls
+cd Mi3-Arch
+ls
+./installscript.sh 
+ls
+cd Mi3-Arch
+ls
+sudo ./installscript.sh 
+ls
+sudo ./installscript.sh 
+sudo su
+reboot now
+sudo reboot now
+ls
+cd Mi3-Arch
+ls
+chmod +x installscript.sh 
+ls
+./installscript.sh 
+i3blocks 
+pacmd
+pulseaudio-equalizer enable
+yay -Ss pulseaudio-equalizer
+yay -S pulseaudio-equalizer
+pulseaudio-equalizer enable
+systemctl pulseaudio enable
+systemctl pulseaudio enableloginctl enable-linger pulseaudio
+loginctl enable-linger pulseaudio
+systemctl --system status pulseaudio.service
+systemctl --user mask pulseaudio.{service,socket} --now #unmask to revert
+systemctl --user unmask pulseaudio.{service,socket} --now 
+systemctl --system status pulseaudio.service
+systemctl --user unmask pulseaudio.{service,socket} --now 
+systemctl --system status pulseaudio.service
+systemctl --system status pulseaudio.service
+systemctl --user mask pulseaudio.{service,socket} --now #unmask to revert
+systemctl --system status pulseaudio.service
+systemctl --user unmask pulseaudio.{service,socket} --now 
+cd /etc/pulse/
+ls
+nano client.conf 
+sudo nano client.conf 
+cd /etc/systemd/
+ls
+ls | pulseaudio 
+ls -la
+sudo touch pulseaudio.service
+sudo nano pulseaudio.service 
+systemctl --system enable --now pulseaudio.service
+systemctl --user enable/start pulseaudio.service/socket
+systemctl --user enable pulseaudio.service/socket
+systemctl --user enable pulseaudio.service
+systemctl --user start pulseaudio.service
+2reboot
+reboot
+ls
+cd .config/
+code .
+i3blocks
+ls
+df -h
+neofetch
+ls
+cd i3blocks/
+ls
+cd scripts/
+ls
+chmod +x volume 
+ls
+pulseaudio-x11
+ls
+/usr/
+ls
+cd /usr/
+ls
+cd etc/
+ls
+cd ..
+ls
+history
+cd ~
+ls
+cd Documents/
+ls
+history > history.txt
+code history.txt 
+cd /etc/pulse/
+ls
+sudo nano client.conf 
+reboot
+neofetch 
+htop
+xprop
+neofetch 
+pacmd list-sinks
+pactl set-sink-volume 0 100%
+pactl set-sink-volume 0 200%
+i3blocks 
+amixer
+echo ${1:-5%}
+echo ${1:-5%}
+echo ${1:-5%}
+echo ${1:-5%}
+echo ${1:-5%}
+echo ${1:-5%}
+echo ${1:-5%}
+echo ${1:-5%}
+echo ${1:-5%}
+i3blocks
+reboot
+i3blocks
+i3blocks
+neofetch 
+i3-msg lock
+neofetch 
+clear
+ls
+clear
+neofetch 
+neofetch 
+clear
+neofetch 
+yay -Ss scrot
+yay -S flameshot
+clear
+neofetch 
+ranger
+xprop
+htop
+ranger
+shutdown
+shutdown now
+ls
+cd .config/i3
+code config 
+yay -Ss xbacklight
+xorg-xbacklight
+xbacklight 
+xbacklight 
+cd /sys/class/backlight/
+ls
+cd /etc/X11/xorg.conf.d/
+cd
+ls
+pwd
+cd /etc/X11
+ls
+touch xorg.conf
+sudo touch xorg.conf
+sudo nano xorg.conf
+history 
+cd /etc/X11
+ls
+mv xorg.conf -t ~/
+sudo mv xorg.conf -t ~/
+ls
+reboot
+find /sys -type f -name brightness
+sudo find /sys -type f -name brightness
+yay -Ss acpilight
+yay -S acpilight
+xbacklight +5
+xbacklight -5
+xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight -5
+sudo xbacklight +10
+sudo xbacklight +10
+sudo xbacklight +10
+sudo xbacklight +10
+sudo xbacklight +10
+sudo xbacklight +10
+sudo xbacklight +10
+yay -Ss acpi
+xbacklight -20
+chmod +x /usr/bin/xbacklight 
+sudo chmod +x /usr/bin/xbacklight 
+xbacklight -20
+sudo chmod +x /sys/class/backlight/intel_backlight/brightness 
+xbacklight -20
+id
+usermod -a -G video dominik
+sudo usermod -a -G video dominik
+xbacklight +20
+xbacklight +20
+usermod -aG video dominik
+sudo usermod -aG video dominik
+sudo usermod -aG video dominik
+sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+logout
+i3-msg exit
+sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+xbacklight +10
+xbacklight +10
+xbacklight -50
+xbacklight +50
+xbacklight 
+xbacklight -get
+ls
+cd Mi3-Arch
+ls
+code installscript.sh 
+yay -Syu
+lsblk
+ls
+cd ..
+ls
+rm xorg.conf 
+ls
+ls
+cd .config/
+i3blocks
+cd i3blocks/
+ls
+code .
+neofetch 
+ls
+cd
+ls
+ls -la | grep config
+cd .config/
+ls
+ls
+touch backup.sh
+ls
+chmord +x backup.sh 
+chmod +x backup.sh 
+ls
+code backup.sh 
+./backup.sh 
+./backup.sh 
+./backup.sh 
+ls
+backup
+mkdir backup
+mkdir backup
+ls
+rm -rf backup
+ls
+./backup.sh 
+ls
+ls
+./backup.sh 
+./backup.sh 
+ls
+rm null 
+./backup.sh 
+ls
+./backup.sh 
+cd backup
+ls
+cat historylog.txt 
+history
+ls
+ls -la
+cd
+./backup
+és
+ls
+./backup.sh 
+cd backup
+ls
+ls -la
+cd
+./backup.sh 
+cd backup
+ls
+ls -la
+cd
+ls
+./backup.sh 
+cd backup
+ls
+ls -la
+./backup.sh 
+cd
+./backup.sh 
+cd backup
+ls
+ls -la
+code historylog.txt 
+cd
+./backup.sh 
+cd backup
+ls
+ls -la
+history 
+man history
+history --help
+ls -la
+cd ~
+ls
+ls -la
+ls
+cd backup
+ls
+rm historylog.txt 
+cd
+ls
+./backup
+./backup.sh 
+cd backup
+ls
+cat bash_history 
+ls
+cd ..
+ls
+ls -la
+ls
+cd .config/
+ls
+cd
+ls
+./backup.sh 
+./backup.sh 
+./backup.sh 
+ls
+cd backup
+és
+ls
+ls -la
+ls
+cd
+ls
+cd Mi3-Arch
+ls
+cat lightdmxrandr.sh 
+code ~/.config/i3/config 
+xrandr
+arandr
+yay -S arandr
+ls
+cd ..
+ls
+ls -la
+cd .screenlayout/
+ls
+cat def.sh 
+xrandr --help
+xrandr -d
+xradnr --display
+xrandr --listmonitors
+ls
+cat def.sh 
+xrandr --listactivemonitors
+xrandr --listproviders
+xrandr --brightness 100
+xrandr --output eDP-1 --brightness 100
+xrandr --brightness 50

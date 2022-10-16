@@ -1,0 +1,54 @@
+command=$SCRIPT_DIR/$BLOCK_NAME
+color=#E0E0E0
+
+[spotify]
+label= 
+command=python ~/.config/i3blocks/scripts/spotify.py
+color=#2ebd59
+interval=5
+
+[volume]
+command=~/.config/i3blocks/scripts/volume
+LABEL= 
+# LABEL=VOL 
+interval=1
+signal=10
+STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+#NATURAL_MAPPING=2
+
+[backlight]
+command=~/.config/i3blocks/scripts/backlight
+#label=☀
+label= 
+interval=1
+STEP_SIZE=5
+#USE_SUDO=0
+
+[battery2]
+command=~/.config/i3blocks/scripts/battery2
+markup=pango
+interval=30
+
+# [miccontrol]
+# command=~/.config/i3blocks/scripts/miccontrol
+# label=MIC
+# SOURCE=alsa_input.pci-0000_00_1f.3.analog-stereo
+# interval=10
+# signal=10
+
+[load]
+command=~/.config/i3blocks/scripts/load
+interval=1
+label= 
+
+[disk]
+command=~/.config/i3blocks/scripts/disk
+interval=1
+label= 
+
+[date]
+command=date '+%b %d %H:%M'
+interval=1
+label= 
