@@ -57,6 +57,8 @@ systemctl --system start pulseaudio.service
 # chmod a+xr /etc/lightdm/lightdmxrandr.sh
 # sudo sed -i 's/# display-setup-script = Script to run when starting a greeter session (runs as root)/display-setup-script = /etc/lightdm/lightdmxrandr.sh/g' /etc/lightdm/lightdm.conf
 
+
+i3-msg restart
 # Cleanup
 yay -Yc --noconfirm
 

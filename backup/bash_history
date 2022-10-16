@@ -1,38 +1,3 @@
-ls
-nano installscript.sh 
-ls
-ls -la
-git clone https://github.com/Fizzor96/Mi3-Arch.git
-ls
-cd Mi3-Arch/
-ls
-./installscript.sh 
-./installscript.sh 
-ls
-cd Mi3-Arch/
-ls
-nano installscript.sh 
-lss
-ls
-./installscript.sh 
-reboot
-ls
-cd Mi3-Arch/
-ls
-cd dots/
-ls
-ls -la
-cp .wallpaper.png -t ~/
-ls
-ls -la
-feh --version
-yay -S feh
-neofetch 
-df -h
-ls -la
-shutdown now
-yay -Syu
-yay -Syyu
 uname -al
 man uname
 uname -a
@@ -498,3 +463,38 @@ xrandr --listproviders
 xrandr --brightness 100
 xrandr --output eDP-1 --brightness 100
 xrandr --brightness 50
+xrandr
+ls
+history
+xrandr --output eDP-1 --brightness 50
+ls
+./backup
+./backup.sh 
+ls
+mv backup.sh backupscript.sh
+ls
+ls
+cp -r backup Mi3-Arch
+ls
+cd Mi3-Arch
+ls
+cd
+cp backupscript.sh Mi3-Arch
+ls
+cd Mi3-Arch
+ls
+git status
+git add .
+git commit -m "all working but audiocontols???"
+git config --global user.email marwel96@gmail.com
+git config --glibal user.name Fizzor96
+git config --global user.name Fizzor96
+git commit -m "all working but audiocontols???"
+git push
+code .
+neovim
+vim
+cd ~/.config/i3/
+code config 
+lsblk
+reboot
