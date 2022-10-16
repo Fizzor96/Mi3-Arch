@@ -9,3 +9,6 @@ WiFi Connection during install:
 5. station wlan0 connect networkname
 6. "password"
 7. exit
+
+psk:
+h23j9ne82e2u5394
