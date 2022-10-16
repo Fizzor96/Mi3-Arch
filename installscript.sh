@@ -39,7 +39,15 @@ picom --config ~/.config/picom/picom.conf
 # prevent packman/yay to update/upgrade "linux", pacmanconf addition
 # pacman config file location: /etc/pacman.conf
 sed -i 's/#IgnorePkg   =/IgnorePkg   = linux/g' /etc/pacman.conf
+
+# brightnesscontrolls 
 sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+
+# audiocontrolls
+systemctl --system enable --now pulseaudio.service
+# systemctl --user enable pulseaudio.service/socket
+systemctl --system enable pulseaudio.service/socket
+systemctl --system start pulseaudio.service
 
 # set cursor in greeter (lightdm)
 # sed -i 's/Inherits=Adwaita/Inherits=capitaine-cursors/g' /usr/share/icons/default/index.theme
@@ -52,4 +60,4 @@ sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
 # Cleanup
 yay -Yc --noconfirm
 
-reboot now
+sudo reboot now
