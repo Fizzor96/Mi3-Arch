@@ -48,6 +48,14 @@ else:
     else:
         percentleft = 0
 
+    btry_full = ""
+    btry_3 = ""
+    btry_2 = ""
+    btry_1 = ""
+    btr_empty = ""
+    btry_current = btry_full + ""
+
+
     # stands for charging
     FA_LIGHTNING = "<span color='yellow'><span font='FontAwesome'>\uf0e7</span></span>"
 
@@ -62,15 +70,17 @@ else:
 
 
     if state == "Discharging":
-        fulltext = FA_BATTERY + " "
+        # fulltext = FA_BATTERY + " "
+        fulltext = " "
     elif state == "Full":
-        fulltext = FA_PLUG + " "
+        fulltext = FA_PLUG + ""
         timeleft = ""
     elif state == "Unknown":
         fulltext = FA_QUESTION + " " + FA_BATTERY + " "
         timeleft = ""
     else:
-        fulltext = FA_LIGHTNING + " " + FA_PLUG + " "
+        # fulltext = FA_LIGHTNING + " " + FA_PLUG + " "
+        fulltext = FA_LIGHTNING  + " "
 
     def color(percent):
         if percent < 10:
@@ -92,9 +102,22 @@ else:
             return "#FFFF66"
         return "#FFFFFF"
 
+    def icon(percent):
+        if percent <=11:
+            return btr_empty
+        if percent <= 26:
+            return btry_1
+        if percent <= 51:
+            return btry_2
+        if percent <= 76:
+            return btry_3
+        if percent <= 100:
+            return btry_full
+
     form =  '<span color="{}">{}%</span>'
+    fulltext += icon(percentleft)
     fulltext += form.format(color(percentleft), percentleft)
-    fulltext += timeleft
+    # fulltext += timeleft
 
 print(fulltext)
 print(fulltext)
