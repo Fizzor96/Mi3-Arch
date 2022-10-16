@@ -17,7 +17,7 @@ sudo rm -rf yay
 
 # install dependencies
 # spotify cuz i3blocks script require a spotify install 
-yay --noconfirm --answerdiff None --answerclean None --removemake -Sy --needed i3exit ttf-yosemite-san-francisco-font-git ttf-fira-code ttf-font-awesome ttf-inconsolata lxappearance moka-icon-theme-git arc-gtk-theme-git capitaine-cursors picom i3blocks-contib acpi xorg-xbacklight xorg-xset alsa-utils acpilight network-manager-applet spotify rxvt-unicode visual-studio-code-bin
+yay --noconfirm --answerdiff None --answerclean None --removemake -Sy --needed i3exit ntfs-3g ttf-yosemite-san-francisco-font-git ttf-fira-code ttf-font-awesome ttf-inconsolata lxappearance moka-icon-theme-git arc-gtk-theme-git capitaine-cursors picom i3blocks-contib acpi xorg-xbacklight xorg-xset alsa-utils acpilight network-manager-applet spotify rxvt-unicode visual-studio-code-bin
 
 pip install dbus-python
 
