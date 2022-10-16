@@ -1,29 +1,3 @@
-uname -al
-man uname
-uname -a
-uname --help
-uname -s
-uname -v
-uname -r
-uname -sr
-df -h
-yay -S visual-studio-code-bin
-ls
-code .config/i3/config 
-neofetch 
-neofetch 
-clear
-reboot now
-sudo reboot now
-gcc --version
-g++ --version
-ls
-ls
-mkdir Documents
-ls
-code Documents .
-ls
-cd Documents/
 code .
 df -h
 neofetch 
@@ -498,3 +472,29 @@ cd ~/.config/i3/
 code config 
 lsblk
 reboot
+cd backup
+ls
+code bash_history 
+ls
+cd ~
+cd .config/i3blocks/
+ls
+code .
+cd ~
+ls
+cd Mi3-Arch
+ls
+cd ..
+ls
+cd ~
+./backupscript.sh 
+cp -r backup Mi3-Arch
+ls
+cd Mi3-Arch
+code .
+neofetch 
+df -h
+ls
+cleaer
+clear 
+neofetch 
