@@ -7,6 +7,12 @@ command=python ~/.config/i3blocks/scripts/spotify.py
 color=#2ebd59
 interval=5
 
+[wifi]
+command=~/.config/i3blocks/scripts/wifi
+label= 
+INTERFACE=wlan0
+interval=5
+
 [volume]
 command=~/.config/i3blocks/scripts/volume
 LABEL= 
@@ -29,7 +35,7 @@ STEP_SIZE=5
 [battery2]
 command=~/.config/i3blocks/scripts/battery2
 markup=pango
-interval=5
+interval=1
 
 # [miccontrol]
 # command=~/.config/i3blocks/scripts/miccontrol
@@ -38,15 +44,15 @@ interval=5
 # interval=10
 # signal=10
 
-[load]
-command=~/.config/i3blocks/scripts/load
-interval=1
-label= 
+# [load]
+# command=~/.config/i3blocks/scripts/load
+# interval=1
+# label= 
 
-[disk]
-command=~/.config/i3blocks/scripts/disk
-interval=1
-label= 
+# [disk]
+# command=~/.config/i3blocks/scripts/disk
+# interval=1
+# label= 
 
 [date]
 command=date '+%b %d %H:%M'

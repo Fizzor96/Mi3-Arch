@@ -11,4 +11,5 @@ WiFi Connection during install:
 7. exit
 
 psk:
-h23j9ne82e2u5394
+T-523B1E: h23j9ne82e2u5394
+T-793621: nc2d5umc662c
