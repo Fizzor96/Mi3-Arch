@@ -29,7 +29,7 @@ STEP_SIZE=5
 [battery2]
 command=~/.config/i3blocks/scripts/battery2
 markup=pango
-interval=30
+interval=5
 
 # [miccontrol]
 # command=~/.config/i3blocks/scripts/miccontrol
