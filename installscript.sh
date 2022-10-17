@@ -17,7 +17,7 @@ sudo rm -rf yay
 
 # install dependencies
 # spotify cuz i3blocks script require a spotify install 
-yay --noconfirm --answerdiff None --answerclean None --removemake -Sy --needed feh i3exit ntfs-3g ttf-yosemite-san-francisco-font-git ttf-fira-code ttf-font-awesome ttf-inconsolata lxappearance moka-icon-theme-git arc-gtk-theme-git capitaine-cursors picom i3blocks-contrib acpi xorg-xset alsa-utils network-manager-applet spotify rxvt-unicode visual-studio-code-bin
+yay --noconfirm --answerdiff None --answerclean None --removemake -Sy --needed feh i3exit ntfs-3g ttf-yosemite-san-francisco-font-git ttf-fira-code ttf-font-awesome ttf-inconsolata lxappearance moka-icon-theme-git arc-gtk-theme-git capitaine-cursors picom i3blocks-contrib acpi xorg-xset alsa-utils network-manager-applet spotify-launcher rxvt-unicode visual-studio-code-bin
 
 pip install dbus-python
 
@@ -40,7 +40,8 @@ picom --config ~/.config/picom/picom.conf
 sudo sed -i 's/#IgnorePkg   =/IgnorePkg   = linux/g' /etc/pacman.conf
 
 # brightnesscontrolls 
-sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+# sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+sudo usermod -aG video $USER
 
 # network
 systemctl start NetworkManager
