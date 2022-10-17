@@ -24,9 +24,10 @@ fi
 
 # install dependencies
 # spotify cuz i3blocks script require a spotify install 
-yay --noconfirm --answerdiff None --answerclean None --removemake -Sy --needed feh i3exit i3lock ntfs-3g ttf-yosemite-san-francisco-font-git ttf-fira-code ttf-font-awesome ttf-inconsolata lxappearance moka-icon-theme-git arc-gtk-theme-git capitaine-cursors i3blocks-contrib acpi xorg-xset alsa-utils network-manager-applet spotify-launcher rxvt-unicode visual-studio-code-bin dbus picom
+yay --noconfirm --answerdiff None --answerclean None --removemake -Sy --needed feh i3exit i3lock ntfs-3g ttf-yosemite-san-francisco-font-git ttf-fira-code ttf-font-awesome ttf-inconsolata lxappearance moka-icon-theme-git arc-gtk-theme-git capitaine-cursors i3blocks-contrib acpi xorg-xset alsa-utils iwgtk spotify-launcher rxvt-unicode visual-studio-code-bin dbus picom
 
-# pip install dbus-python
+# for i3blocks-spotify
+pip install dbus-python
 
 # copy configs
 cd dots
