@@ -44,8 +44,8 @@ sudo sed -i 's/#IgnorePkg   =/IgnorePkg   = linux/g' /etc/pacman.conf
 sudo usermod -aG video $USER
 
 # network
-systemctl start NetworkManager
-systemctl enable NetworkManager
+# systemctl start NetworkManager
+# systemctl enable NetworkManager
 
 
 # set cursor in greeter (lightdm)
