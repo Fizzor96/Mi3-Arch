@@ -1,0 +1,4 @@
+2022/10/18-20:31:55.731 232 Reusing MANIFEST /home/dominik/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/10/18-20:31:55.731 232 Recovering log #9
+2022/10/18-20:31:55.734 232 Reusing old log /home/dominik/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000009.log 
+2022/10/18-20:31:55.734 232 Delete type=2 #8
